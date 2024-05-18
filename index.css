@@ -1,0 +1,120 @@
+.menu {
+    background-color: lightblue;
+
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 200px;
+    height: 200px;
+   
+    position: relative;
+    display: block;
+}
+
+.card{
+    background-color: #add8e6;
+
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+
+    text-align: center;
+
+    width: 200px;
+    height: 330px;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  }
+
+.card:hover{
+    background-color: #40add8e6;
+    border-color: goldenrod;
+}
+
+.imgMovie{
+    height: 200px;
+    width: 200px;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+#svgContainer{
+    align-items: center;
+    position: relative;
+    margin: auto;
+    padding: auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+h3{
+    color: black;
+    font-size:medium;
+    width: 100%;
+    height: 50px;
+
+}
+
+button{
+    background-color: gold;
+    width: 150px;
+    height: 50px;
+
+    border-radius: 30px;
+    border-width: 2px;
+
+    font-size: large;
+    font-weight: 600;
+    color: black;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
+
+body {
+  background: linear-gradient(to bottom right, magenta, cyan);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html , body{
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.spinner{
+  height: 120px;
+  width: 120px;
+  border: 6px solid;
+  border-color: white transparent white transparent;
+  border-radius: 50%;
+  animation: spin 1.3s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
