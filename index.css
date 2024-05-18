@@ -35,12 +35,6 @@
     display: inline-block;
 }
 
-.hidden {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s 2s, opacity 2s linear;
-  }
-
 .card:hover{
     background-color: #40add8e6;
     border-color: goldenrod;
@@ -56,7 +50,7 @@
 }
 #svgContainer{
     align-items: center;
-    position: relative;
+    position:relative;
     margin: auto;
     padding: auto;
     display: block;
@@ -94,6 +88,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
